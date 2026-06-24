@@ -1,0 +1,293 @@
+
+.container{
+    display:grid;
+    font-family:Arial, Helvetica, sans-serif;
+    grid-template-columns: 1fr;
+
+}
+.headings{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    scroll-margin-top: 90px;
+}
+
+.navbar{
+    background-color: black;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height:50px;
+    color: white;
+    font-family:;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    z-index: 10;
+}
+.navbar a{
+    color: white;
+    margin: 10px;
+
+}
+
+.landing{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgb(105, 104, 104);
+    width: 100%;
+    height: 750px;
+    color: white;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: ;
+}
+.landing button{
+    border-radius: 6px;
+    background-color: rgb(247, 170, 3);
+    color: black;
+    font-size: 25px;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+    padding: 10px;
+}
+.landing h1{
+
+    font-size: 50px;
+}
+
+.landing h6{
+
+    font-size: 15px;
+}
+ .landing .highlight{
+    color: rgb(247, 170, 3);
+    font-weight: bold;
+ }
+
+ 
+ .aboutme {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  
+}
+.aboutme .banner img{
+height: 300px;
+width: 500px;
+
+}
+.aboutme .banner{
+    
+    align-self: center;
+    justify-self: center;
+
+}
+
+
+.aboutme .text{
+    
+    align-self: center;
+    justify-self: center;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.card{
+    position: relative;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    height:450px;
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+    transition: 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.3);
+    text-align: start;
+    padding: 10px;
+    
+}
+
+.card img{
+    height: 200px;
+    width: 300px;
+}
+
+.card:hover{
+   
+    transform: translateY(-10px);
+    box-shadow: 6px 18px  16px rgba(0, 0, 0,0.3);    
+}
+
+.card a{
+    border: 1px solid rgb(13, 110, 253);
+    border-radius: 6px;
+    height:60px;
+    width: 120px;
+    color: rgb(13, 110, 253);
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(239, 237, 237);
+    font-size:medium;
+
+    
+}
+
+.card a:hover{
+    background-color:rgb(13, 110, 253);
+    color: aliceblue;
+}
+
+.Education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.Education .card{
+    border: 1px solid rgba(0, 0, 0,0.3);
+    height: 150px;
+    width:90%;
+     box-shadow: 0 6px 12px rgba(0, 0, 0,0.3);
+}
+
+
+.Education img{
+    height: 100px;
+    width: 100px;
+}
+ section{                      /*section has default dislpay block so we specified inline block */
+    display: inline-block;     /*so elemnts align horizontal precent inside  in section tag */
+    margin-left: 20px;
+    text-align: center;
+}
+
+.myskills{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 20px;
+}
+.myskills .circle{
+    border: 1px solid black;
+    border-radius:50px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: rgb(184, 185, 187);
+    color:white;
+    
+}
+
+.certificates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.certificates .card{
+    border: 1px solid rgba(0, 0, 0,0.3);
+    height: 150px;
+    width:90%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.3);
+}
+
+.fun{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.fun .card{
+    border: 1px solid rgba(0, 0, 0,0.3);
+    height: 250px;
+    width:90%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.3);
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap:10px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.contact .form{
+    height:450px;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.3);
+    padding: 15px;
+    background-color: rgba(243, 243, 243, 0.5);
+    border-radius: 6px;
+}
+.contact .form input,
+.contact .form textarea,
+.contact .form button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.contact .info{
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.3);
+    height: 250px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.contact a{
+    text-decoration: none;
+}
+.contact button{
+    border: 1px solid rgb(13, 110, 253);
+    border-radius: 6px;
+    height:40px;
+    width: 100px;
+    color: rgb(13, 110, 253);
+}
+
+.contact button.blue{
+    background-color:rgb(13, 110, 253);
+    color: aliceblue;
+}
+
+.contact button.black{
+    background-color:rgb(0,0,0);
+    color: aliceblue;
+}
+
+.contact button.skyblue{
+    background-color:rgb(12, 227, 227);
+    color: aliceblue;
+}
+
+.footer
+{
+    width:100%;
+    background-color: #212529;
+    color:aliceblue;
+    text-align: center;
+    height: 70px;
+
+}
+
+
