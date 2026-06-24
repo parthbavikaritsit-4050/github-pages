@@ -1,0 +1,80 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.background {
+    background-color: black;
+    display: block;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    z-index: 5;
+}
+
+.display{
+    padding:50px;
+    background-color: white;
+    height: 150px;
+    font-size: 3rem;
+    text-align:right;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+
+.keypad{
+    margin: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+.buttons{
+    background-color:lightgray;
+    border-radius:15px;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size:25px;
+}
+
+.buttons:hover{
+    background-color: azure;
+    color: black;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+}
+
+.clear {
+    background-color: crimson;
+    color: white;
+}
+
+.equal {
+    background-color: green;
+    color: white;
+    WIDTH:150PX;
+    margin-left: 20px;
+
+}
+
+section{
+    text-align: center;
+    margin: 10px;
+}

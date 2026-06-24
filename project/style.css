@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive
+
+}
+.container {
+    
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 1000
+    
+}
+
+.content{
+    
+}
+
+header {
+    height: 130px
+    
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAqQfirGTuqv-bCbThjDqX54IK2SupN-QP9g&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>h1 {
+    text-align: center;
+    padding: 20px;
+    color:white
+}
+header>p{
+    text-align: center;
+    color:white;
+}
+
+.navbar{
+    text-align: center;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    width: 100%;
+}
+ .menu>a{
+    padding: 10px;
+    text-decoration: none;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar img{
+    height: 45px;
+    width: 45px;
+}
+
+.banner {
+    height: 300px;
+     width:100%;
+     overflow: hidden;
+     display:flex;
+ 
+}
+
+.banner img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button{
+    background-color: green;
+    color:white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+.book{
+    display:flex;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    
+}

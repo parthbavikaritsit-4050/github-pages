@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        .form-container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 50px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h2 {
+            text-align: center;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+
+        label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+label input {
+    width: auto;
+}
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>📚 Book Festival Registration</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number">
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        
+        <input type="number" placeholder="Age">
+
+        <select>
+            <option>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <select>
+            <option>Favorite Genre</option>
+            <option>Fiction</option>
+            <option>Non-fiction</option>
+            <option>Science</option>
+            <option>History</option>
+            <option>Self-help</option>
+        </select>
+
+        <select>
+            <option>Reading Frequency</option>
+            <option>Daily</option>
+            <option>Weekly</option>
+            <option>Monthly</option>
+        </select>
+
+        <select>
+            <option>Preferred Language</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Other</option>
+        </select>
+
+        <input type="text" placeholder="Favorite Author">
+        <input type="text" placeholder="Address">
+        <input type="text" placeholder="Country">
+
+        <label>
+            I agree to Terms and Conditions:<input type="checkbox"></input> 
+        </label>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
