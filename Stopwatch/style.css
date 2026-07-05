@@ -17,9 +17,12 @@ body {
 button {
     border-radius: 15px;
     height: 40px;
-    width: 80px;
+    width: 120px;
     padding: 10px;
     margin: 5px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 ul {
